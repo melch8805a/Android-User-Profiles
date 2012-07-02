@@ -3,12 +3,11 @@ Android-User-Profiles
 
 Creating an app (python-based) that will allow a user to switch user profiles
 
-Just testing to see how commits are working with smartgit
-=======
-Not sure what is really going on...
-===================================
-Update 2... still not sure how smartgit is doing commits...
-===========================================================
-Update 3... Pretty sure I figured it out (plus figured out how to "unhide" unchanged files
-==========================================================================================
-need to work on goals/sub-projects for this
+GOALS
+=====
+1) Use SL4A - Python/n
+2) Enable multiple user profiles on android (device agnostic)
+3) Figure out installer package so that SL4A does not need to be installed
+4) Figure out if root is required (probably)
+5) GUI the project
+6) ??? <- 6 and on will come in the future
