@@ -1,0 +1,50 @@
+1) go to: github.com and signup for an account
+	a) https://github.com/signup/free
+2) once signed in, go here: (ps i'm doing all my stuff on a windows)
+	https://help.github.com/articles/set-up-git
+		a) download and install the latest version of Git
+3) once that is done, open up the git gui (found in the program files menu)
+	a) click help
+	b) click show ssh key
+		i) should be blank
+	c) click generate key
+		i) should ask for password - you can enter a passphrase if you want --i did--
+	d) once generated, copy the key (there is a copy to clipboard button)
+4) go back to the github website and go to your account settings
+	a) its a screwdriver/wrench icon on the top right
+	b) click SSH Keys link
+	c) click add SSH Key
+		i) give it a title and paste key into "key" section
+		ii) click add key
+		iii) if you gave a passphrase you will have to retype it in
+5) go to http://www.syntevo.com/smartgit/index.html
+	a) download smartgit (i say this, because this is the gui i use)
+	b) install
+		i) on the install screen make sure you select the option that you are not using
+			this for commercial use (free for us poor people)
+6) Open SmartGit
+	a)click project > clone
+	b) click remote git.......
+		i) enter this: git@github.com:melch8805a/Android-User-Profiles.git
+		ii) click next -- it might ask for a password (should be your ssh key password -- if you set one)
+			1) if that doesn't work, let me know -- might be my key... (or try your github pass -- if diff from key password)
+		iii) it will ask you were you want to save the files (your working directory)
+	c) should be able to click the sync button to sync with the server
+	
+Bonus (helpful if you use notepad ++)
+1) Click edit > preferences
+2) click file tools (under tools)
+3) click add
+	a) File pattern: *
+	b) Click following Application
+	c) Command: C:\Program Files (x86)\Notepad++\notepad++.exe
+	d) Arguments: ${filePath}
+	e) Run In: SmartGit's working dir
+	f) click ok
+	
+What this does is allow you to double click a file in smartgit and have it open in notepad++
+Obviously if your file path is different, please change it
+
+Bonus 2
+Click View and select all the ctrl+(1-4)
+really helps when looking for files
