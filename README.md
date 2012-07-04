@@ -20,3 +20,7 @@ GOALS
 5) GUI the project
 
 6) ??? <- 6 and on will come in the future
+
+Useful Sites
+============
+1) http://code.google.com/p/android-scripting/wiki/ApiReference
