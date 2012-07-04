@@ -1,0 +1,18 @@
+To Do List
+
+Initial Account setup (will be root user to control all profiles)
+	|------> No
+New User Setup
+	|------> No
+App Access List
+	|------> No
+Service Access List (ex: allow bluetooth / web access)
+	|------> No
+Access List DB (or will this become a script at login?)
+	|------> No
+Change User Profile
+	|------> Yes (kinda still waiting on everything else so we can tie in)
+SDCard Access
+	|------> No
+
+Add more as we get further in project
